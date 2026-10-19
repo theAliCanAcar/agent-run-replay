@@ -1,0 +1,27 @@
+{
+  "name": "agent-run-replay",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Ordered event journal with pure replay without re-running tools.",
+  "main": "agent-run-replay.js",
+  "exports": {
+    ".": "./agent-run-replay.js"
+  },
+  "files": [
+    "agent-run-replay.js",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "agents",
+    "reliability",
+    "verification",
+    "agent-run-replay"
+  ],
+  "license": "MIT"
+}
